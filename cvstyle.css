@@ -1,0 +1,14 @@
+header{
+    background-color: bisque;
+    position: sticky;
+    top: 0;
+}
+
+#LeftBar{
+    width: 10em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    position: sticky;
+    top: 7.3em;
+    background-color: azure;
+}
