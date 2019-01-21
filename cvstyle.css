@@ -1,14 +1,56 @@
+body{
+    float: left;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(63, 108, 204);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 header{
     background-color: bisque;
     position: sticky;
     top: 0;
+    background-color: rgb(212, 255, 129);
+    width :30%;
+}
+header a:hover{
+    background-color: #ddd;
+    color: blueviolet;
+}
+
+ul{
+    list-style-type: none;
 }
 
 #LeftBar{
-    width: 10em;
+    width: 15%;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
     position: sticky;
     top: 7.3em;
-    background-color: azure;
+    background-color: rgb(255, 128, 104);
+}
+#LeftBar a:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+#Content{
+    margin-left: 5%;
+    text-align: center;
+    
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    padding-left: 7%;
+}
+
+#RightBar{
+    padding-left: 30%;
 }
